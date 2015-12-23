@@ -1,4 +1,4 @@
-if [[ "$PATCH_ONEPLUS_ONYX" -ne 1 ]]
+if [[ "$PATCH_ONEPLUS_ONYX" -eq 1 ]]
 then
   # apply ONYX patches
   export PATCH_ONEPLUS_ONYX=1
